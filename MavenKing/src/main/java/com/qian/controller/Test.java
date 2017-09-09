@@ -9,7 +9,12 @@ public class Test {
 
 	@RequestMapping("/index")
 	public String test(){
-		return "main";
+		return "qian_index";
+	}
+	
+	@RequestMapping("/index1")
+	public String test1(){
+		return "hou_index";
 	}
 	
 }
