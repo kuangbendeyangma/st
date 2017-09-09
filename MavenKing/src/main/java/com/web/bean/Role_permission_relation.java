@@ -2,11 +2,19 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
 public class Role_permission_relation {
 	//角色权限表
 	private int role_id;//角色id
 	private String permission_ename;//权限名称
 	private Date create_date;//创建时间
+	@Id
+	@GeneratedValue
 	public int getRole_id() {
 		return role_id;
 	}

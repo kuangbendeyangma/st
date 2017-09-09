@@ -2,90 +2,99 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Member_withdraw_record {//ÌáÏÖ¼ÇÂ¼±í
-private int id;//id;
-private String serial_number;//Á÷Ë®ºÅ
-private int member_id;//ÓÃ»§id
-private double amount;//ÌáÏÖ½ğ¶î
-private String bank_name;//ÒøĞĞ¿¨Ãû³Æ
-private String bank_card;//¿¨ºÅ
-private int status;//ÌáÏÖ×´Ì¬(0:´ıÉóºË;1:ÒÑ´ò¿î;2´ò¿îÖĞ;3:´ò¿îÊ§°Ü)
-private int delFlag;//ÊÇ·ñÉ¾³ı
-private String cardaddress;//¿ª»§ÒøĞĞËùÔÚµØ
-private String create_name;//´ò¿îÍ¨µÀ£¨¸»ÓÑ,±´¸¶£©
-private  Date create_date;//´´½¨Ê±¼ä
-private Date update_date;//ĞŞ¸ÄÊ±¼ä
-public int getId() {
-	return id;
-}
-public void setId(int id) {
-	this.id = id;
-}
-public String getSerial_number() {
-	return serial_number;
-}
-public void setSerial_number(String serial_number) {
-	this.serial_number = serial_number;
-}
-public int getMember_id() {
-	return member_id;
-}
-public void setMember_id(int member_id) {
-	this.member_id = member_id;
-}
-public double getAmount() {
-	return amount;
-}
-public void setAmount(double amount) {
-	this.amount = amount;
-}
-public String getBank_name() {
-	return bank_name;
-}
-public void setBank_name(String bank_name) {
-	this.bank_name = bank_name;
-}
-public String getBank_card() {
-	return bank_card;
-}
-public void setBank_card(String bank_card) {
-	this.bank_card = bank_card;
-}
-public int getStatus() {
-	return status;
-}
-public void setStatus(int status) {
-	this.status = status;
-}
-public int getDelFlag() {
-	return delFlag;
-}
-public void setDelFlag(int delFlag) {
-	this.delFlag = delFlag;
-}
-public String getCardaddress() {
-	return cardaddress;
-}
-public void setCardaddress(String cardaddress) {
-	this.cardaddress = cardaddress;
-}
-public String getCreate_name() {
-	return create_name;
-}
-public void setCreate_name(String create_name) {
-	this.create_name = create_name;
-}
-public Date getCreate_date() {
-	return create_date;
-}
-public void setCreate_date(Date create_date) {
-	this.create_date = create_date;
-}
-public Date getUpdate_date() {
-	return update_date;
-}
-public void setUpdate_date(Date update_date) {
-	this.update_date = update_date;
-}
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Member_withdraw_record {//æç°è®°å½•è¡¨
+	private int id;//id;
+	private String serial_number;//æµæ°´å·
+	private int member_id;//ç”¨æˆ·ID
+	private double amount;//ä½“ç°é‡‘é¢
+	private String bank_name;//é“¶è¡Œåç§°
+	private String bank_card;//å¡å·
+	private int status;//æç°çŠ¶æ€(0:å¾…å®¡æ ¸;1:å·²æ‰“æ¬¾;2æ‰“æ¬¾ä¸­;3:æ‰“æ¬¾å¤±è´¥)',
+	private int delFlag;//æ˜¯å¦åˆ é™¤
+	private String cardaddress;//å¼€æˆ·é“¶è¡Œæ‰€åœ¨åœ°',
+	private String create_name;//æ‰“æ¬¾é€šé“ï¼ˆå¯Œå‹,è´ä»˜ï¼‰',
+	private  Date create_date;//åˆ›å»ºæ—¶é—´
+	private Date update_date;//ä¿®æ”¹æ—¶é—´
+	@Id
+	@GeneratedValue
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getSerial_number() {
+		return serial_number;
+	}
+	public void setSerial_number(String serial_number) {
+		this.serial_number = serial_number;
+	}
+	public int getMember_id() {
+		return member_id;
+	}
+	public void setMember_id(int member_id) {
+		this.member_id = member_id;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	public String getBank_name() {
+		return bank_name;
+	}
+	public void setBank_name(String bank_name) {
+		this.bank_name = bank_name;
+	}
+	public String getBank_card() {
+		return bank_card;
+	}
+	public void setBank_card(String bank_card) {
+		this.bank_card = bank_card;
+	}
+	public int getStatus() {
+		return status;
+	}
+	public void setStatus(int status) {
+		this.status = status;
+	}
+	public int getDelFlag() {
+		return delFlag;
+	}
+	public void setDelFlag(int delFlag) {
+		this.delFlag = delFlag;
+	}
+	public String getCardaddress() {
+		return cardaddress;
+	}
+	public void setCardaddress(String cardaddress) {
+		this.cardaddress = cardaddress;
+	}
+	public String getCreate_name() {
+		return create_name;
+	}
+	public void setCreate_name(String create_name) {
+		this.create_name = create_name;
+	}
+	public Date getCreate_date() {
+		return create_date;
+	}
+	public void setCreate_date(Date create_date) {
+		this.create_date = create_date;
+	}
+	public Date getUpdate_date() {
+		return update_date;
+	}
+	public void setUpdate_date(Date update_date) {
+		this.update_date = update_date;
+	}
 
 }

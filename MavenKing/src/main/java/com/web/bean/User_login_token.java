@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class User_login_token {//用户登陆令牌表
 	private int id;//令牌号
 	private int user_id;//用户id
@@ -10,6 +17,8 @@ public class User_login_token {//用户登陆令牌表
 	private Date expire_time; //有效时间
 	private Date create_date; // 创建时间
 	private Date update_date; //修改时间
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

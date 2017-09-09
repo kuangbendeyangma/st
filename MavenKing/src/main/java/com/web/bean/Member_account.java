@@ -2,83 +2,92 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Member_account {//³ÉÔ±ÕË»§±í
-private int id;//id
-private int member_id;//ÓÃ»§id
-private double useable_balance;//¿ÉÓÃ½ğ¶î 
-private double imuseale_balance;//¶³½á½ğ¶î
-private double total_profit;//ÀÛ¼ÆÊÕÒæ
-private Date create_date;//´´½¨Ê±¼ä
-private Date update_date;//ĞŞ¸ÄÊ±¼ä
-private double bonus_amount;//ºì°ü½ğ¶î
-private double invest_amount;//Í¶×Ê×Ü¶î
-private int delflag;//
-private double bbin_amount;//ÌåÑé½ğ
-public int getId() {
-	return id;
-}
-public void setId(int id) {
-	this.id = id;
-}
-public int getMember_id() {
-	return member_id;
-}
-public void setMember_id(int member_id) {
-	this.member_id = member_id;
-}
-public double getUseable_balance() {
-	return useable_balance;
-}
-public void setUseable_balance(double useable_balance) {
-	this.useable_balance = useable_balance;
-}
-public double getImuseale_balance() {
-	return imuseale_balance;
-}
-public void setImuseale_balance(double imuseale_balance) {
-	this.imuseale_balance = imuseale_balance;
-}
-public double getTotal_profit() {
-	return total_profit;
-}
-public void setTotal_profit(double total_profit) {
-	this.total_profit = total_profit;
-}
-public Date getCreate_date() {
-	return create_date;
-}
-public void setCreate_date(Date create_date) {
-	this.create_date = create_date;
-}
-public Date getUpdate_date() {
-	return update_date;
-}
-public void setUpdate_date(Date update_date) {
-	this.update_date = update_date;
-}
-public double getBonus_amount() {
-	return bonus_amount;
-}
-public void setBonus_amount(double bonus_amount) {
-	this.bonus_amount = bonus_amount;
-}
-public double getInvest_amount() {
-	return invest_amount;
-}
-public void setInvest_amount(double invest_amount) {
-	this.invest_amount = invest_amount;
-}
-public int getDelflag() {
-	return delflag;
-}
-public void setDelflag(int delflag) {
-	this.delflag = delflag;
-}
-public double getBbin_amount() {
-	return bbin_amount;
-}
-public void setBbin_amount(double bbin_amount) {
-	this.bbin_amount = bbin_amount;
-}
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Member_account {//æˆå‘˜è´¦æˆ·è¡¨
+	private int id;//id
+	private int member_id;//ç”¨æˆ·ID 
+	private double useable_balance;//å¯ç”¨ä½™é¢ 
+	private double imuseale_balance;//å†»ç»“ä½™é¢ 
+	private double total_profit;//ç´¯è®¡æ”¶ç›Š  
+	private Date create_date;//åˆ›å»ºæ—¶é—´ 
+	private Date update_date;//ä¿®æ”¹æ—¶é—´
+	private double bonus_amount;//çº¢åŒ…é‡‘é¢
+	private double invest_amount;//æŠ•èµ„æ€»é¢  
+	private int delflag;//
+	private double bbin_amount;//ä½“éªŒé‡‘  
+	@Id
+	@GeneratedValue
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getMember_id() {
+		return member_id;
+	}
+	public void setMember_id(int member_id) {
+		this.member_id = member_id;
+	}
+	public double getUseable_balance() {
+		return useable_balance;
+	}
+	public void setUseable_balance(double useable_balance) {
+		this.useable_balance = useable_balance;
+	}
+	public double getImuseale_balance() {
+		return imuseale_balance;
+	}
+	public void setImuseale_balance(double imuseale_balance) {
+		this.imuseale_balance = imuseale_balance;
+	}
+	public double getTotal_profit() {
+		return total_profit;
+	}
+	public void setTotal_profit(double total_profit) {
+		this.total_profit = total_profit;
+	}
+	public Date getCreate_date() {
+		return create_date;
+	}
+	public void setCreate_date(Date create_date) {
+		this.create_date = create_date;
+	}
+	public Date getUpdate_date() {
+		return update_date;
+	}
+	public void setUpdate_date(Date update_date) {
+		this.update_date = update_date;
+	}
+	public double getBonus_amount() {
+		return bonus_amount;
+	}
+	public void setBonus_amount(double bonus_amount) {
+		this.bonus_amount = bonus_amount;
+	}
+	public double getInvest_amount() {
+		return invest_amount;
+	}
+	public void setInvest_amount(double invest_amount) {
+		this.invest_amount = invest_amount;
+	}
+	public int getDelflag() {
+		return delflag;
+	}
+	public void setDelflag(int delflag) {
+		this.delflag = delflag;
+	}
+	public double getBbin_amount() {
+		return bbin_amount;
+	}
+	public void setBbin_amount(double bbin_amount) {
+		this.bbin_amount = bbin_amount;
+	}
 
 }

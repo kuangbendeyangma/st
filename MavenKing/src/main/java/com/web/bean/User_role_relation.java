@@ -2,10 +2,18 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
 public class User_role_relation {//用户角色关联表
 private int user_id;//用户id
 private int role_id;//角色id
 private Date create_date;//创建时间
+@Id
+@GeneratedValue
 public int getUser_id() {
 	return user_id;
 }

@@ -2,6 +2,12 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
 public class Sys_recharge_price_config {//充值面额管理表
 	private int id;//充值id
 	private String type;//类型
@@ -9,6 +15,8 @@ public class Sys_recharge_price_config {//充值面额管理表
 	private double sell_price;//销售金额
 	private Date create_date;//创建时间
 	private Date update_date;//修改时间
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

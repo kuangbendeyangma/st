@@ -2,6 +2,12 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
 public class Oversea_cofig {//海外配置表
 	private int id;//海外配置id
 	private String title;//标题
@@ -15,6 +21,8 @@ public class Oversea_cofig {//海外配置表
 	private Date start_date;//开始时间
 	private Date end_date;//结束时间
 	private int satus;//状态
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

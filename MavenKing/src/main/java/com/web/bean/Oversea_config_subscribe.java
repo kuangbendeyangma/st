@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class Oversea_config_subscribe {//海外配置订阅表
 private int id;//订阅id
 private int member_id;//会员id
@@ -12,6 +19,8 @@ private String addr;//地址
 private int status;//状态 
 private Date create_date;//创建时间
 private Date update_date;//修改时间
+@Id
+@GeneratedValue
 public int getId() {
 	return id;
 }

@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class User_message {//用户消息表
 	private int id;//主键
 	private int user_id;//用户id
@@ -13,6 +20,8 @@ public class User_message {//用户消息表
 	private int del_flag;//删除标志
 	private Date create_date;//  创建时间
 	private Date update_date;//修改时间
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

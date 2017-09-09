@@ -2,31 +2,40 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class News {//ĞÂÎÅÁĞ±í
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class News {//æ–°é—»åˆ—è¡¨
 private int id;//id
-private int typeId;//ËùÊôÀà±ğ
-private String title;//±êÌâ
-private String subTitle;//¸±±êÌâ
-private int sort;//ÅÅĞò
-private String info;//¼ò½é
-private String cPhoto;//·âÃæÍ¼Æ¬
-private String link;//Á´½ÓµØÖ·
-private String author;//×÷Õß
-private String source;//À´Ô´
-private String label;//±êÇ©
-private int clickNumber;//µã»÷ÊıÁ¿
-private String text;//ÄÚÈİ
-private String filelink;//¸½¼şµØÖ·
-private String seoTitle;//Ò³Ãæseo±êÌâ
-private String seoKey;//seo¹Ø¼ü×Ö
-private String seoDes;//seoÃèÊö
-private int placTop;//ÊÇ·ñÖÃ¶¥ 0£ºÎªÊÇ  1Îª·ñ
-private int recommend;//ÊÇ·ñÍÆ¼ö
-private int audit;//ÊÇ·ñÉóºË
-private int addId;//Ìí¼ÓÈËID
-private int updId;//ĞŞ¸ÄÈËID
-private Date updTime;//ĞŞ¸ÄÊ±¼ä
-private Date addTime;//Ìí¼ÓÊ±¼ä
+private int typeId;//æ‰€å±ç±»åˆ«
+private String title;//æ ‡é¢˜
+private String subTitle;//å‰¯æ ‡é¢˜
+private int sort;//æ’åº
+private String info;//ç®€ä»‹
+private String cPhoto;//å°é¢å›¾ç‰‡
+private String link;//é“¾æ¥åœ°å€Ö·
+private String author;//ä½œè€…
+private String source;//æ¥æº
+private String label;//æ ‡ç­¾
+private int clickNumber;//ç‚¹å‡»æ•°é‡
+private String text;//å†…å®¹
+private String filelink;//é™„ä»¶åœ°å€Ö·
+private String seoTitle;//é¡µé¢seoæ ‡é¢˜
+private String seoKey;//seoå…³é”®å­—
+private String seoDes;//seoæè¿°
+private int placTop;//æ˜¯å¦ç½®é¡¶ 0æ˜¯ 1ä¸æ˜¯
+private int recommend;//æ˜¯å¦æ¨è
+private int audit;//æ˜¯å¦å®¡æ ¸
+private int addId;//æ·»åŠ äººID
+private int updId;//ä¿®æ”¹äººID
+private Date updTime;//ä¿®æ”¹æ—¶é—´
+private Date addTime;//æ·»åŠ æ—¶é—´
+@Id
+@GeneratedValue
 public int getId() {
 	return id;
 }

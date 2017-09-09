@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class Sms_interface {//短信接口模板表
 	private int id;//短信id
 	private String name;//短信模板名称
@@ -11,6 +18,8 @@ public class Sms_interface {//短信接口模板表
 	private String content;//短信模板内容
 	private Date createdate;//添加时间
 	
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

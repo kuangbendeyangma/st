@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class Push_notice {//公告表
 	private int id;//公告id
 	private String title;//标题
@@ -9,6 +16,8 @@ public class Push_notice {//公告表
 	private int status;//状态
 	private Date create_date;//创建时间
 	private Date update_date;//修改时间
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

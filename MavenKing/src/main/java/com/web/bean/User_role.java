@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class User_role {//角色表
 	private int id;//主键
 	private String cname;//中文名
@@ -14,7 +21,8 @@ public class User_role {//角色表
 	private int source_type;//源型类别
 	private int source_id;//源型id
 	private int del_flag;//是否删除
-	
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

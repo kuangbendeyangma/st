@@ -2,10 +2,18 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
 public class Subject_folder {//附件归属表
 	private int id;//主键
 	private Date create;//创建时间
 	private Date update_create;//修改时间
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

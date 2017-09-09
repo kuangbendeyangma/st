@@ -1,5 +1,12 @@
 package com.web.bean;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class Sys_biz_institution {//商业机构表
 	private int id;//机构id
 	private String province;//省
@@ -8,6 +15,8 @@ public class Sys_biz_institution {//商业机构表
 	private String biz_sub_type;//private int id;
 	private String institution_name;//机构名称
 	private String institution_code;//机构编码
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

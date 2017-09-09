@@ -2,23 +2,31 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Finance_product_subscribe {//Àí²ÆÀà»ù½ğ²úÆ·Ô¤Ô¼¼ÇÂ¼±í
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
+public class Finance_product_subscribe {//ç†è´¢ç±»åŸºé‡‘äº§å“é¢„çº¦è®°å½•è¡¨
 private int id;//id
-private String name;//Ãû³Æ
-private int member_id;//»áÔ±id
-private String phone;//ÁªÏµµç»°
-private int product_id;//Àí²Æ²úÆ·id
-private String addr;//ËùÔÚµØÇø
-private int status;//ÊÇ·ñ´¦Àí(0:Ç©ÊğÅÄÕÕ|1:ÒÑÇ©Ô¼|2:ÉóºËÖĞ|3:Ç©ÊğÊ§°Ü)
-private String comment;//µç×ÓÇ©ÊğÎÄµµĞÅÏ¢
-private String risk_reveal;//·çÏÕ½ÒÊ¾Êé
-private Date create_date;//Ìí¼ÓÊ±¼ä
-private Date update_date;//ĞŞ¸ÄÊ±¼ä
-private double amount;//Ë½Ä¼¹ºÂò½ğ¶î
-private double interest;//Ë½Ä¼½áËãÊÕÒæ
-private Date start_date;//¿ªÊ¼Ê±¼ä
-private Date end_date;//½áÊøÊ±¼ä
-private String signed_photos;//Ç©ÊğÅÄÕÕ
+private String name;//åç§°
+private int member_id;//ä¼šå‘˜ID
+private String phone;//è”ç³»ç”µè¯
+private int product_id;//ç†è´¢äº§å“ID
+private String addr;// æ‰€åœ¨åœ°åŒº
+private int status;//æ˜¯å¦å¤„ç†(0:ç­¾ç½²æ‹ç…§|1:å·²ç­¾çº¦|2:å®¡æ ¸ä¸­|3:ç­¾ç½²å¤±è´¥)ï¿½ï¿½ï¿½ï¿½|3:Ç©ï¿½ï¿½Ê§ï¿½ï¿½)
+private String comment;//ç”µå­ç­¾ç½²æ–‡æ¡£ä¿¡æ¯
+private String risk_reveal;// é£é™©æ­ç¤ºä¹¦
+private Date create_date;//æ·»åŠ æ—¶é—´
+private Date update_date;//ä¿®æ”¹æ—¶é—´
+private double amount;//Ë½ç§å‹Ÿè´­ä¹°é‡‘é¢
+private double interest;//Ë½ç§å‹Ÿç»“ç®—æ”¶ç›Š
+private Date start_date;//å¼€å§‹æ—¶é—´
+private Date end_date;//ç»“æŸæ—¶é—´
+private String signed_photos;//ç­¾ç½²æ‹ç…§
+@Id
+@GeneratedValue
 public int getId() {
 	return id;
 }

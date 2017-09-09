@@ -2,6 +2,12 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
 public class Sys_region {
 private int id;//id
 private String bg2260;//行政区域国标代码
@@ -13,6 +19,8 @@ private String parent_gb2260;//父编码
 private String dialling_code;//电话区号
 private Date create_date;//创建时间
 private Date last_date;//最后修改时间
+@Id
+@GeneratedValue
 public int getId() {
 	return id;
 }

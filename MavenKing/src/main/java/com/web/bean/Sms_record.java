@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class Sms_record {//短信记录表
 	private int id;//记录id
 	private int type;//短信类型
@@ -12,7 +19,8 @@ public class Sms_record {//短信记录表
 	private int status;//状态
 	private Date senddate;//发送时间
 	private Date createdate;//创建时间
-	
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

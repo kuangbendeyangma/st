@@ -2,6 +2,12 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
 public class User_log {//登陆日志表
 	private int id;//id
 	private int user_id;//用户id
@@ -9,6 +15,8 @@ public class User_log {//登陆日志表
 	private Date create_date;//创建时间
 	private Date update_date;//修改时间
 	private String logn_ip;//登陆ip
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

@@ -2,34 +2,42 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Feedback {//Òâ¼û·´À¡±í
-private int id;//id
-private int member_id;//»áÔ±id
-private String content;//Òâ¼û·´À¡ÄÚÈİ
-private Date create_date;//´´½¨Ê±¼ä
-public int getId() {
-	return id;
-}
-public void setId(int id) {
-	this.id = id;
-}
-public int getMember_id() {
-	return member_id;
-}
-public void setMember_id(int member_id) {
-	this.member_id = member_id;
-}
-public String getContent() {
-	return content;
-}
-public void setContent(String content) {
-	this.content = content;
-}
-public Date getCreate_date() {
-	return create_date;
-}
-public void setCreate_date(Date create_date) {
-	this.create_date = create_date;
-}
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
+public class Feedback {//æ„è§åé¦ˆè¡¨
+	private int id;//id
+	private int member_id;//ä¼šå‘˜id
+	private String content;//æ„è§åé¦ˆå†…å®¹
+	private Date create_date;//åˆ›å»ºæ—¶é—´
+	@Id
+	@GeneratedValue
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getMember_id() {
+		return member_id;
+	}
+	public void setMember_id(int member_id) {
+		this.member_id = member_id;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public Date getCreate_date() {
+		return create_date;
+	}
+	public void setCreate_date(Date create_date) {
+		this.create_date = create_date;
+	}
 
 }

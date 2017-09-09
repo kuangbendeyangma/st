@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class Subject {//主题表
 	private int id;//主题id
 	private String serial_number;//流水号
@@ -33,6 +40,8 @@ public class Subject {//主题表
 	private String projectDetails;//项目详情
 	private String safetyContrl ;//安全保障
 	private int exper_status;//体验金是否可以购买
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class Subject_bbin_purchase_record {//体验金购买标的表
 	private int id;//体验id
 	private String serial_number;//流水号
@@ -16,6 +23,8 @@ public class Subject_bbin_purchase_record {//体验金购买标的表
 	private int ispayment;//是否还款
 	private int pay_interest_times;//支付次数
 	private int last_profit_day;//最后利息日
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

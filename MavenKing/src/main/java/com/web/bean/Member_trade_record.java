@@ -2,104 +2,113 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Member_trade_record {//½»Ò×¼ÇÂ¼±í
-private int id;//id
-private int member_id;//ÓÃ»§id
-private String trade_no;//½»Ò×ºÅ
-private String trade_name;//½»Ò×Ãû³Æ
-private String counterpart;//½»Ò×¶Ô·½
-private double amount;//½»Ò×½ğ¶î
-private String trade_type;//½»Ò×·ÖÀà
-private int fund_flow;//×Ê½ğÁ÷Ïò(0:Á÷³ö1:Á÷Èë)
-private int trade_status;//½»Ò××´Ì¬
-private String ext_field_1;//À©Õ¹1
-private String ext_field_2;//À©Õ¹2
-private String ext_field_3;//À©Õ¹3
-private Date create_date;//´´½¨Ê±¼ä
-private Date update_date;//ĞŞ¸ÄÊ±¼ä
-public int getId() {
-	return id;
-}
-public void setId(int id) {
-	this.id = id;
-}
-public int getMember_id() {
-	return member_id;
-}
-public void setMember_id(int member_id) {
-	this.member_id = member_id;
-}
-public String getTrade_no() {
-	return trade_no;
-}
-public void setTrade_no(String trade_no) {
-	this.trade_no = trade_no;
-}
-public String getTrade_name() {
-	return trade_name;
-}
-public void setTrade_name(String trade_name) {
-	this.trade_name = trade_name;
-}
-public String getCounterpart() {
-	return counterpart;
-}
-public void setCounterpart(String counterpart) {
-	this.counterpart = counterpart;
-}
-public double getAmount() {
-	return amount;
-}
-public void setAmount(double amount) {
-	this.amount = amount;
-}
-public String getTrade_type() {
-	return trade_type;
-}
-public void setTrade_type(String trade_type) {
-	this.trade_type = trade_type;
-}
-public int getFund_flow() {
-	return fund_flow;
-}
-public void setFund_flow(int fund_flow) {
-	this.fund_flow = fund_flow;
-}
-public int getTrade_status() {
-	return trade_status;
-}
-public void setTrade_status(int trade_status) {
-	this.trade_status = trade_status;
-}
-public String getExt_field_1() {
-	return ext_field_1;
-}
-public void setExt_field_1(String ext_field_1) {
-	this.ext_field_1 = ext_field_1;
-}
-public String getExt_field_2() {
-	return ext_field_2;
-}
-public void setExt_field_2(String ext_field_2) {
-	this.ext_field_2 = ext_field_2;
-}
-public String getExt_field_3() {
-	return ext_field_3;
-}
-public void setExt_field_3(String ext_field_3) {
-	this.ext_field_3 = ext_field_3;
-}
-public Date getCreate_date() {
-	return create_date;
-}
-public void setCreate_date(Date create_date) {
-	this.create_date = create_date;
-}
-public Date getUpdate_date() {
-	return update_date;
-}
-public void setUpdate_date(Date update_date) {
-	this.update_date = update_date;
-}
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Member_trade_record {//äº¤æ˜“è®°å½•è¡¨
+	private int id;//id
+	private int member_id;//ç”¨æˆ·ï¿½id
+	private String trade_no;//äº¤æ˜“å·',      
+	private String trade_name;//äº¤æ˜“åç§°    
+	private String counterpart;//äº¤æ˜“å¯¹æ–¹',     
+	private double amount;// äº¤æ˜“é‡‘é¢',    
+	private String trade_type;//äº¤æ˜“åˆ†ç±»',        
+	private int fund_flow;//èµ„é‡‘æµå‘(0:æµå‡º1:æµå…¥)',
+	private int trade_status;//äº¤æ˜“çŠ¶æ€',×´Ì¬
+	private String ext_field_1;//æ‰©å±•Õ¹1
+	private String ext_field_2;//æ‰©å±•Õ¹2
+	private String ext_field_3;//æ‰©å±•Õ¹3
+	private Date create_date;//åˆ›å»ºæ—¶é—´
+	private Date update_date;//ä¿®æ”¹æ—¶é—´
+	@Id
+	@GeneratedValue
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getMember_id() {
+		return member_id;
+	}
+	public void setMember_id(int member_id) {
+		this.member_id = member_id;
+	}
+	public String getTrade_no() {
+		return trade_no;
+	}
+	public void setTrade_no(String trade_no) {
+		this.trade_no = trade_no;
+	}
+	public String getTrade_name() {
+		return trade_name;
+	}
+	public void setTrade_name(String trade_name) {
+		this.trade_name = trade_name;
+	}
+	public String getCounterpart() {
+		return counterpart;
+	}
+	public void setCounterpart(String counterpart) {
+		this.counterpart = counterpart;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	public String getTrade_type() {
+		return trade_type;
+	}
+	public void setTrade_type(String trade_type) {
+		this.trade_type = trade_type;
+	}
+	public int getFund_flow() {
+		return fund_flow;
+	}
+	public void setFund_flow(int fund_flow) {
+		this.fund_flow = fund_flow;
+	}
+	public int getTrade_status() {
+		return trade_status;
+	}
+	public void setTrade_status(int trade_status) {
+		this.trade_status = trade_status;
+	}
+	public String getExt_field_1() {
+		return ext_field_1;
+	}
+	public void setExt_field_1(String ext_field_1) {
+		this.ext_field_1 = ext_field_1;
+	}
+	public String getExt_field_2() {
+		return ext_field_2;
+	}
+	public void setExt_field_2(String ext_field_2) {
+		this.ext_field_2 = ext_field_2;
+	}
+	public String getExt_field_3() {
+		return ext_field_3;
+	}
+	public void setExt_field_3(String ext_field_3) {
+		this.ext_field_3 = ext_field_3;
+	}
+	public Date getCreate_date() {
+		return create_date;
+	}
+	public void setCreate_date(Date create_date) {
+		this.create_date = create_date;
+	}
+	public Date getUpdate_date() {
+		return update_date;
+	}
+	public void setUpdate_date(Date update_date) {
+		this.update_date = update_date;
+	}
 
 }

@@ -2,6 +2,13 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
 public class Subject_file {//附件表
 	private int id;//主键
 	private int folder_id;//附件主表id
@@ -10,6 +17,8 @@ public class Subject_file {//附件表
 	private String original_name;//原文件名称
 	private Date create_date;//创建时间
 	private Date update_date;//修改时间
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

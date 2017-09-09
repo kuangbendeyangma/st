@@ -2,15 +2,25 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Associated_account {//¹ØÁªÕËºÅ±í-µÚÈı·½µÇÂ½ĞÅÏ¢±í
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Associated_account {//å…³è”è´¦å·è¡¨-ç¬¬ä¸‰æ–¹ç™»é™†ä¿¡æ¯è¡¨
 	private int id;//id
-	private int member_id;//»áÔ±id
-	private String type;//ÕËºÅÀàĞÍ
-	private String name;//ÕËºÅÃû³Æ
-	private String identifying;//ÕËºÅ±êÊ¶
-	private int status;//×´¿ö
-	private Date create_date;//´´½¨Ê±¼ä
-	private Date update_date;//ĞŞ¸ÄÊ±¼ä
+	private int member_id;//ä¼šå‘˜Ô±id
+	private String type;//ä¼šå‘˜ç±»å‹
+	private String name;//è´¦å·åç§°
+	private String identifying;//è´¦å·æ ‡è¯†
+	private int status;//×´çŠ¶æ€
+	private Date create_date;//åˆ›å»ºæ—¶é—´
+	private Date update_date;//ä¿®æ”¹æ—¶é—´
+
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

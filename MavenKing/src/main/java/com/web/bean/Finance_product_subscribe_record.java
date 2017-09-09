@@ -2,24 +2,34 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Finance_product_subscribe_record {//½ğÈÚ²úÆ·¶©ÔÄ¼ÇÂ¼±í
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Finance_product_subscribe_record {//é‡‘èäº§å“è®¢é˜…è®°å½•è¡¨
 private int id;//id
-private int member_id;//»áÔ±id
-private int subscribe_id;//Ë½Ä¼Ô¤Ô¼¼ÇÂ¼ID
-private String tech_user_id;//eÇ©±¦¸öÈËÕËºÅ
-private String tech_user_seal;//eÇ©±¦¸öÈËÓ¡ÕÂ
-private String org_path;//Ô­Ç©ÊğÎÄµµÂ·¾¶
-private String new_path;//ĞÂÇ©ÊğÎÄµµÂ·¾¶
-private int status;//×´Ì¬
-private Date create_date;//´´½¨Ê±¼ä
-private Date update_date;//ĞŞ¸ÄÊ±¼ä
-private String filed1;//±¸ÓÃ×Ö¶Î
+private int member_id;// ä¼šå‘˜ID 
+private int subscribe_id;//Ë½ ç§å‹Ÿé¢„çº¦è®°å½•ID 
+private String tech_user_id;//eç­¾å®ä¸ªäººè´¦å·
+private String tech_user_seal;//eç­¾å®ä¸ªäººå°ç« 
+private String org_path;//åŸç­¾ç½²æ–‡æ¡£è·¯å¾„  
+private String new_path;//æ–°ç­¾ç½²æ–‡æ¡£è·¯å¾„   
+private int status;//çŠ¶æ€	×´Ì¬
+private Date create_date;//åˆ›å»ºæ—¶é—´
+private Date update_date;//ä¿®æ”¹æ—¶é—´
+private String filed1;//ï¿½å¤‡ç”¨å­—æ®µ
+@Id
+@GeneratedValue
 public int getId() {
 	return id;
 }
 public void setId(int id) {
 	this.id = id;
 }
+
 public int getMember_id() {
 	return member_id;
 }

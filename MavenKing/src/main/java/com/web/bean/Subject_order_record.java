@@ -2,6 +2,12 @@ package com.web.bean;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
 public class Subject_order_record {//标的订单表
 	private int id;//订单id
 	private String serial_number;//流水号
@@ -13,6 +19,8 @@ public class Subject_order_record {//标的订单表
 	private int deflag;//是否删除
 	private Date create_date;//创建时间
 	private Date update_date;//更新时间
+	@Id
+	@GeneratedValue
 	public int getId() {
 		return id;
 	}

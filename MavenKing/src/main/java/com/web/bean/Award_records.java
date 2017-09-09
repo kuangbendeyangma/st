@@ -2,48 +2,58 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Award_records {//½±Àø¼ÇÂ¼±í
-private int id;//id
-private int invitingid;//ÑûÇëÈËid
-private int byinvitingid;//±»ÑûÈËid
-private int type;//½±ÀøÀàĞÍ£¨0£º×¢²á½±Àø£¬1£ºÍ¶×Ê½±Àø£©
-private int isAward;//½±Àø×´Ì¬(0:Î´½±Àø 1:ÒÑ½±Àø)
-private Date addTime;//Ìí¼ÓÊ±¼ä
-public int getId() {
-	return id;
-}
-public void setId(int id) {
-	this.id = id;
-}
-public int getInvitingid() {
-	return invitingid;
-}
-public void setInvitingid(int invitingid) {
-	this.invitingid = invitingid;
-}
-public int getByinvitingid() {
-	return byinvitingid;
-}
-public void setByinvitingid(int byinvitingid) {
-	this.byinvitingid = byinvitingid;
-}
-public int getType() {
-	return type;
-}
-public void setType(int type) {
-	this.type = type;
-}
-public int getIsAward() {
-	return isAward;
-}
-public void setIsAward(int isAward) {
-	this.isAward = isAward;
-}
-public Date getAddTime() {
-	return addTime;
-}
-public void setAddTime(Date addTime) {
-	this.addTime = addTime;
-}
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Award_records {//å¥–åŠ±è®°å½•è¡¨
+	private int id;//id
+	private int invitingid;//é‚€è¯·äººid
+	private int byinvitingid;//è¢«é‚€è¯·äºº
+	private int type;//å¥–åŠ±ç±»å‹(0:æ³¨å†Œå¥–åŠ±,1:æŠ•èµ„å¥–åŠ±)
+	private int isAward;//å¥–åŠ±çŠ¶æ€(0:æœªå¥–åŠ±,1:å·²å¥–åŠ±)
+	private Date addTime;//æ·»åŠ æ—¶é—´
+
+	@Id
+	@GeneratedValue
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getInvitingid() {
+		return invitingid;
+	}
+	public void setInvitingid(int invitingid) {
+		this.invitingid = invitingid;
+	}
+	public int getByinvitingid() {
+		return byinvitingid;
+	}
+	public void setByinvitingid(int byinvitingid) {
+		this.byinvitingid = byinvitingid;
+	}
+	public int getType() {
+		return type;
+	}
+	public void setType(int type) {
+		this.type = type;
+	}
+	public int getIsAward() {
+		return isAward;
+	}
+	public void setIsAward(int isAward) {
+		this.isAward = isAward;
+	}
+	public Date getAddTime() {
+		return addTime;
+	}
+	public void setAddTime(Date addTime) {
+		this.addTime = addTime;
+	}
 
 }

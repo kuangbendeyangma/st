@@ -2,15 +2,23 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Financial_planner {//Àí²ÆÊ¦±í
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Table
+@Entity
+public class Financial_planner {//ç†è´¢å¸ˆè¡¨
 private int id;//id
-private int member_id;//»áÔ±id
-private String name;//ÕæÊµĞÕÃû
-private String orgname;//»ú¹¹Ãû³Æ
-private String mycard;//ÎÒµÄÃûÆ¬
-private int status;//×´Ì¬
-private Date create_date;//´´½¨Ê±¼ä
-private Date update_date;//ĞŞ¸ÄÊ±¼ä
+private int member_id;//ä¼šå‘˜ID
+private String name;//çœŸå®å§“å
+private String orgname;//æœºæ„åç§°
+private String mycard;//æˆ‘çš„åç‰‡
+private int status;//çŠ¶æ€×´Ì¬
+private Date create_date;//åˆ›å»ºæ—¶é—´
+private Date update_date;//ä¿®æ”¹æ—¶é—´
+@Id
+@GeneratedValue
 public int getId() {
 	return id;
 }

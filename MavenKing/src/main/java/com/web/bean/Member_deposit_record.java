@@ -2,76 +2,85 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Member_deposit_record {//³äÖµ¼ÇÂ¼±í
-private int id;//id
-private String serial_number;//Á÷Ë®ºÅ
-private int member_id;//ÓÃ»§id
-private double amount;//½ğ¶î
-private int status;//×´Ì¬(0:´ı¸¶¿î;1:Íê³É)
-private String pay_channel_name;//³äÖµÇşµÀÃû³Æ
-private String pay_channel_order_no;//³äÖµÇşµÀ¶©µ¥ºÅ
-private int delFlag;//
-private Date create_date;//´´½¨Ê±¼ä
-private Date update_date;//ĞŞ¸ÄÊ±¼ä
-public int getId() {
-	return id;
-}
-public void setId(int id) {
-	this.id = id;
-}
-public String getSerial_number() {
-	return serial_number;
-}
-public void setSerial_number(String serial_number) {
-	this.serial_number = serial_number;
-}
-public int getMember_id() {
-	return member_id;
-}
-public void setMember_id(int member_id) {
-	this.member_id = member_id;
-}
-public double getAmount() {
-	return amount;
-}
-public void setAmount(double amount) {
-	this.amount = amount;
-}
-public int getStatus() {
-	return status;
-}
-public void setStatus(int status) {
-	this.status = status;
-}
-public String getPay_channel_name() {
-	return pay_channel_name;
-}
-public void setPay_channel_name(String pay_channel_name) {
-	this.pay_channel_name = pay_channel_name;
-}
-public String getPay_channel_order_no() {
-	return pay_channel_order_no;
-}
-public void setPay_channel_order_no(String pay_channel_order_no) {
-	this.pay_channel_order_no = pay_channel_order_no;
-}
-public int getDelFlag() {
-	return delFlag;
-}
-public void setDelFlag(int delFlag) {
-	this.delFlag = delFlag;
-}
-public Date getCreate_date() {
-	return create_date;
-}
-public void setCreate_date(Date create_date) {
-	this.create_date = create_date;
-}
-public Date getUpdate_date() {
-	return update_date;
-}
-public void setUpdate_date(Date update_date) {
-	this.update_date = update_date;
-}
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Member_deposit_record {//å……å€¼è®°å½•è¡¨)
+	private int id;//id
+	private String serial_number;//æµæ°´å·',
+	private int member_id;// ç”¨æˆ·id',
+	private double amount;//é‡‘é¢',
+	private int status;//×´çŠ¶æ€(0:å¾…ä»˜æ¬¾;1:å®Œæˆ)',
+	private String pay_channel_name;//å……å€¼æ¸ é“åç§°',
+	private String pay_channel_order_no;// å……å€¼æ¸ é“è®¢å•å·',
+	private int delFlag;//æ˜¯å¦åˆ é™¤
+	private Date create_date;//åˆ›å»ºæ—¶é—´
+	private Date update_date;//ä¿®æ”¹æ—¶é—´ 
+	@Id
+	@GeneratedValue
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getSerial_number() {
+		return serial_number;
+	}
+	public void setSerial_number(String serial_number) {
+		this.serial_number = serial_number;
+	}
+	public int getMember_id() {
+		return member_id;
+	}
+	public void setMember_id(int member_id) {
+		this.member_id = member_id;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	public int getStatus() {
+		return status;
+	}
+	public void setStatus(int status) {
+		this.status = status;
+	}
+	public String getPay_channel_name() {
+		return pay_channel_name;
+	}
+	public void setPay_channel_name(String pay_channel_name) {
+		this.pay_channel_name = pay_channel_name;
+	}
+	public String getPay_channel_order_no() {
+		return pay_channel_order_no;
+	}
+	public void setPay_channel_order_no(String pay_channel_order_no) {
+		this.pay_channel_order_no = pay_channel_order_no;
+	}
+	public int getDelFlag() {
+		return delFlag;
+	}
+	public void setDelFlag(int delFlag) {
+		this.delFlag = delFlag;
+	}
+	public Date getCreate_date() {
+		return create_date;
+	}
+	public void setCreate_date(Date create_date) {
+		this.create_date = create_date;
+	}
+	public Date getUpdate_date() {
+		return update_date;
+	}
+	public void setUpdate_date(Date update_date) {
+		this.update_date = update_date;
+	}
 
 }

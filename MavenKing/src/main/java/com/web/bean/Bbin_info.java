@@ -2,41 +2,50 @@ package com.web.bean;
 
 import java.util.Date;
 
-public class Bbin_info {//ÌåÑé½ğĞÅÏ¢±í
-private int id;//id
-private int member_id;//»áÔ±id
-private int status;//×´¿ö
-private Date create_date;//´´½¨Ê±¼ä
-private Date update_date;//ĞŞ¸ÄÊ±¼ä
-public int getId() {
-	return id;
-}
-public void setId(int id) {
-	this.id = id;
-}
-public int getMember_id() {
-	return member_id;
-}
-public void setMember_id(int member_id) {
-	this.member_id = member_id;
-}
-public int getStatus() {
-	return status;
-}
-public void setStatus(int status) {
-	this.status = status;
-}
-public Date getCreate_date() {
-	return create_date;
-}
-public void setCreate_date(Date create_date) {
-	this.create_date = create_date;
-}
-public Date getUpdate_date() {
-	return update_date;
-}
-public void setUpdate_date(Date update_date) {
-	this.update_date = update_date;
-}
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Bbin_info {//ä½“éªŒé‡‘ä¿¡æ¯è¡¨
+	private int id;//id
+	private int member_id;//ä¼šå‘˜id
+	private int status;//çŠ¶æ€
+	private Date create_date;//åˆ›å»ºæ—¶é—´
+	private Date update_date;//ä¿®æ”¹æ—¶é—´
+	@Id
+	@GeneratedValue
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getMember_id() {
+		return member_id;
+	}
+	public void setMember_id(int member_id) {
+		this.member_id = member_id;
+	}
+	public int getStatus() {
+		return status;
+	}
+	public void setStatus(int status) {
+		this.status = status;
+	}
+	public Date getCreate_date() {
+		return create_date;
+	}
+	public void setCreate_date(Date create_date) {
+		this.create_date = create_date;
+	}
+	public Date getUpdate_date() {
+		return update_date;
+	}
+	public void setUpdate_date(Date update_date) {
+		this.update_date = update_date;
+	}
 
 }
