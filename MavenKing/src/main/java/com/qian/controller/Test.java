@@ -16,5 +16,9 @@ public class Test {
 	public String test1(){
 		return "hou_index";
 	}
+	@RequestMapping("/index2")
+	public String test2(){
+		return "account_number";
+	}
 	
 }

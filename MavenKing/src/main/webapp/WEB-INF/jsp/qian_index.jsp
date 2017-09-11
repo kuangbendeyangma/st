@@ -118,7 +118,6 @@ ul#nav li a:hover {
 		<div class="slider">
 			<!--主体结构，请用此类名调用插件，此类名可自定义-->
 			<ul>
-				<a></a>
 				<li><a href=""><img src="../images/1.jpg" /></a></li>
 				<li><a href=""><img src="../images/2.jpg" /></a></li>
 				<li><a href=""><img src="../images/3.jpg" /></a></li>

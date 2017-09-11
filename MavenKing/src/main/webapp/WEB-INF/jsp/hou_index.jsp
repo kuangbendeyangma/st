@@ -6,22 +6,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>后台首页</title>
 <link rel="icon" type="image/ico"
-	href="http://tattek.com/minimal/../img/favicon.ico" />
+	href="http://tattek.com/minimal/../hou_img/favicon.ico" />
 <!-- Bootstrap -->
-<link href="../hou_css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../csss/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
 <link type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<link rel="stylesheet" href="../hou_css/vendor/animate/animate.min.css">
-<link type="text/css" rel="stylesheet" media="all" href="../hou_css/vendor/mmenu/css/jquery.mmenu.all.css" />
-<link rel="stylesheet" href="../hou_css/vendor/videobackground/css/jquery.videobackground.css">
-<link rel="stylesheet" href="../hou_css/vendor/bootstrap-checkbox.css">
-<link type="text/css" rel="stylesheet" href="../hou_css/vendor/rickshaw/css/rickshaw.min.css">
-<link type="text/css" rel="stylesheet" href="../hou_css/vendor/morris/css/morris.css">
-<link type="text/css" rel="stylesheet" href="../hou_css/vendor/tabdrop/css/tabdrop.css">
-<link type="text/css" rel="stylesheet" href="../hou_css/vendor/summernote/css/summernote.css">
-<link type="text/css" rel="stylesheet" href="../hou_css/vendor/summernote/css/summernote-bs3.css">
-<link type="text/css" rel="stylesheet" href="../hou/vendor/chosen/css/chosen.min.css">
-<link type="text/css" rel="stylesheet" href="../hou_css/vendor/chosen/css/chosen-bootstrap.css">
-<link type="text/css" href="../hou_css/minimal.css" rel="stylesheet">
+<link rel="stylesheet" href="../csss/vendor/animate/animate.min.css">
+<link type="text/css" rel="stylesheet" media="all" href="../csss/vendor/mmenu/css/jquery.mmenu.all.css" />
+<link rel="stylesheet" href="../csss/vendor/videobackground/css/jquery.videobackground.css">
+<link rel="stylesheet" href="../csss/vendor/bootstrap-checkbox.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/rickshaw/css/rickshaw.min.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/morris/css/morris.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/tabdrop/css/tabdrop.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/summernote/css/summernote.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/summernote/css/summernote-bs3.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/chosen/css/chosen.min.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/chosen/css/chosen-bootstrap.css">
+<link type="text/css" href="../csss/minimal.css" rel="stylesheet">
 </head>
 <body class="bg-1">
 
@@ -76,7 +76,7 @@
 
 						<li class="dropdown divided user" id="current-user">
 							<div class="profile-photo">
-								<img src="../images/profile-photo.jpg"/>
+								<img src="../img/profile-photo.jpg"/>
 							</div> <a class="dropdown-toggle options" data-toggle="dropdown"
 							href="#"> 账号<i class="fa fa-caret-down"></i>
 						</a>
@@ -182,7 +182,7 @@
 										size="3">会员管理</font><b class="fa fa-plus dropdown-plus"></b>
 								</a>
 									<ul class="dropdown-menu">
-										<li><a href="htmls/account_number.html"> <i
+										<li><a href="hou_jsps/account_number.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">账号管理</font>
 										</a></li>
 										<li><a href="htmls/manage_money.html"> <i
@@ -294,40 +294,40 @@
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="../hou_js/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="../jss/vendor/bootstrap/bootstrap.min.js"></script>
 	<script type="text/javascript"
-		src="../hou_js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
+		src="../jss/vendor/mmenu/js/jquery.mmenu.min.js"></script>
 	<script type="text/javascript"
-		src="../hou_js/vendor/sparkline/jquery.sparkline.min.js"></script>
+		src="../jss/vendor/sparkline/jquery.sparkline.min.js"></script>
 	<script type="text/javascript"
-		src="../hou_js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
+		src="../jss/vendor/nicescroll/jquery.nicescroll.min.js"></script>
 	<script type="text/javascript"
-		src="../hou_js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
+		src="../jss/vendor/animate-numbers/jquery.animateNumbers.js"></script>
 	<script type="text/javascript"
-		src="../hou_js/vendor/videobackground/jquery.videobackground.js"></script>
+		src="../jss/vendor/videobackground/jquery.videobackground.js"></script>
 	<script type="text/javascript"
-		src="../hou_js/vendor/blockui/jquery.blockUI.js"></script>
+		src="../jss/vendor/blockui/jquery.blockUI.js"></script>
 
-	<script src="../hou_js/vendor/flot/jquery.flot.min.js"></script>
-	<script src="../hou_js/vendor/flot/jquery.flot.time.min.js"></script>
-	<script src="../hou_js/vendor/flot/jquery.flot.selection.min.js"></script>
-	<script src="../hou_js/vendor/flot/jquery.flot.animator.min.js"></script>
-	<script src="../hou_js/vendor/flot/jquery.flot.orderBars.js"></script>
-	<script src="../hou_js/vendor/easypiechart/jquery.easypiechart.min.js"></script>
+	<script src="../jss/vendor/flot/jquery.flot.min.js"></script>
+	<script src="../jss/vendor/flot/jquery.flot.time.min.js"></script>
+	<script src="../jss/vendor/flot/jquery.flot.selection.min.js"></script>
+	<script src="../jss/vendor/flot/jquery.flot.animator.min.js"></script>
+	<script src="../jss/vendor/flot/jquery.flot.orderBars.js"></script>
+	<script src="../jss/vendor/easypiechart/jquery.easypiechart.min.js"></script>
 
-	<script src="../hou_js/vendor/rickshaw/raphael-min.js"></script>
-	<script src="../hou_js/vendor/rickshaw/d3.v2.js"></script>
-	<script src="../hou_js/vendor/rickshaw/rickshaw.min.js"></script>
+	<script src="../jss/vendor/rickshaw/raphael-min.js"></script>
+	<script src="../jss/vendor/rickshaw/d3.v2.js"></script>
+	<script src="../jss/vendor/rickshaw/rickshaw.min.js"></script>
 
-	<script src="../hou_js/vendor/morris/morris.min.js"></script>
+	<script src="../jss/vendor/morris/morris.min.js"></script>
 
-	<script src="../hou_js/vendor/tabdrop/bootstrap-tabdrop.min.js"></script>
+	<script src="../jss/vendor/tabdrop/bootstrap-tabdrop.min.js"></script>
 
-	<script src="../hou_js/vendor/summernote/summernote.min.js"></script>
+	<script src="../jss/vendor/summernote/summernote.min.js"></script>
 
-	<script src="../hou_js/vendor/chosen/chosen.jquery.min.js"></script>
+	<script src="../jss/vendor/chosen/chosen.jquery.min.js"></script>
 
-	<script src="../hou_js/minimal.min.js"></script>
+	<script src="../jss/minimal.min.js"></script>
 
 	<script>
     $(function(){

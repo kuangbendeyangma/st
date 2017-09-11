@@ -60,17 +60,17 @@ body {
     background-position: left top;
     background-size: auto, cover; }
   body.bg-4 {
-    background-image: url(../images/noise.png), url(../images/backgrounds/4.jpg);
+    background-image: url(../img/noise.png), url(../img/backgrounds/4.jpg);
     background-repeat: repeat, no-repeat;
     background-position: left top;
     background-size: auto, cover; }
   body.bg-5 {
-    background-image: url(../images/noise.png), url(../images/backgrounds/5.jpg);
+    background-image: url(../img/noise.png), url(../img/backgrounds/5.jpg);
     background-repeat: repeat, no-repeat;
     background-position: left top;
     background-size: auto, cover; }
   body.bg-6 {
-    background-image: url(../images/noise.png), url(../images/backgrounds/6.jpg);
+    background-image: url(../img/noise.png), url(../img/backgrounds/6.jpg);
     background-repeat: repeat, no-repeat;
     background-position: left top;
     background-size: auto, cover; }
@@ -90,7 +90,7 @@ body {
     -moz-box-sizing: content-box;
     box-sizing: content-box; }
     body .mask #loader {
-      background: url(../images/loader.gif) center center no-repeat;
+      background: url(../img/loader.gif) center center no-repeat;
       height: 15px;
       width: 15px;
       left: 50%;
@@ -119,7 +119,7 @@ body {
       display: none; }
 
 .el-reloader {
-  background: url(../images/loader.gif) center center no-repeat;
+  background: url(../img/loader.gif) center center no-repeat;
   height: 15px;
   width: 15px;
   left: 75%;
@@ -169,7 +169,7 @@ body .navbar {
       padding-left: 20px;
       height: 45px;
       line-height: 45px;
-      background: url(../images/minimal-logo.png) no-repeat 0 16px; }
+      background: url(../img/minimal-logo.png) no-repeat 0 16px; }
       body .navbar .navbar-header .navbar-brand img {
         vertical-align: top; }
     body .navbar .navbar-header .sidebar-collapse {
@@ -407,17 +407,17 @@ body .navbar {
                   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
                   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3); }
                 body .navbar .navbar-nav.quick-actions .dropdown .dropdown-menu.settings > li #color-schemes > li > a.bg-1 {
-                  background: url(../images/backgrounds/thumbs/1.jpg) center center no-repeat; }
+                  background: url(../img/backgrounds/thumbs/1.jpg) center center no-repeat; }
                 body .navbar .navbar-nav.quick-actions .dropdown .dropdown-menu.settings > li #color-schemes > li > a.bg-2 {
-                  background: url(../images/backgrounds/thumbs/2.jpg) center center no-repeat; }
+                  background: url(../img/backgrounds/thumbs/2.jpg) center center no-repeat; }
                 body .navbar .navbar-nav.quick-actions .dropdown .dropdown-menu.settings > li #color-schemes > li > a.bg-3 {
-                  background: url(../images/backgrounds/thumbs/3.jpg) center center no-repeat; }
+                  background: url(/MavenKing/hou_img/backgrounds/thumbs/3.jpg) center center no-repeat; }
                 body .navbar .navbar-nav.quick-actions .dropdown .dropdown-menu.settings > li #color-schemes > li > a.bg-4 {
-                  background: url(../images/backgrounds/thumbs/4.jpg) center center no-repeat; }
+                  background: url(../img/backgrounds/thumbs/4.jpg) center center no-repeat; }
                 body .navbar .navbar-nav.quick-actions .dropdown .dropdown-menu.settings > li #color-schemes > li > a.bg-5 {
-                  background: url(../images/backgrounds/thumbs/5.jpg) center center no-repeat; }
+                  background: url(../img/backgrounds/thumbs/5.jpg) center center no-repeat; }
                 body .navbar .navbar-nav.quick-actions .dropdown .dropdown-menu.settings > li #color-schemes > li > a.bg-6 {
-                  background: url(../images/backgrounds/thumbs/6.jpg) center center no-repeat; }
+                  background: url(../img/backgrounds/thumbs/6.jpg) center center no-repeat; }
           body .navbar .navbar-nav.quick-actions .dropdown .dropdown-menu.settings > li .form-group label {
             color: #717171;
             font-size: 12px;
@@ -587,17 +587,17 @@ body .navbar .navbar-nav.side-nav {
                       -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
                       box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3); }
                     body .navbar .navbar-nav.side-nav > li.collapsed-content > ul > li.user > .settings > li #color-schemes > li > a.bg-1 {
-                      background: url(../images/backgrounds/thumbs/1.jpg) center center no-repeat; }
+                      background: url(../img/backgrounds/thumbs/1.jpg) center center no-repeat; }
                     body .navbar .navbar-nav.side-nav > li.collapsed-content > ul > li.user > .settings > li #color-schemes > li > a.bg-2 {
-                      background: url(../images/backgrounds/thumbs/2.jpg) center center no-repeat; }
+                      background: url(../img/backgrounds/thumbs/2.jpg) center center no-repeat; }
                     body .navbar .navbar-nav.side-nav > li.collapsed-content > ul > li.user > .settings > li #color-schemes > li > a.bg-3 {
-                      background: url(../images/backgrounds/thumbs/3.jpg) center center no-repeat; }
+                      background: url(../img/backgrounds/thumbs/3.jpg) center center no-repeat; }
                     body .navbar .navbar-nav.side-nav > li.collapsed-content > ul > li.user > .settings > li #color-schemes > li > a.bg-4 {
-                      background: url(../images/backgrounds/thumbs/4.jpg) center center no-repeat; }
+                      background: url(../img/backgrounds/thumbs/4.jpg) center center no-repeat; }
                     body .navbar .navbar-nav.side-nav > li.collapsed-content > ul > li.user > .settings > li #color-schemes > li > a.bg-5 {
-                      background: url(../images/backgrounds/thumbs/5.jpg) center center no-repeat; }
+                      background: url(../img/backgrounds/thumbs/5.jpg) center center no-repeat; }
                     body .navbar .navbar-nav.side-nav > li.collapsed-content > ul > li.user > .settings > li #color-schemes > li > a.bg-6 {
-                      background: url(../images/backgrounds/thumbs/6.jpg) center center no-repeat; }
+                      background: url(../img/backgrounds/thumbs/6.jpg) center center no-repeat; }
               body .navbar .navbar-nav.side-nav > li.collapsed-content > ul > li.user > .settings > li .form-group label {
                 color: #717171;
                 font-size: 12px;
