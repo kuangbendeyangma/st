@@ -138,16 +138,16 @@
 										size="3">理财产品</font><b class="fa fa-plus dropdown-plus"></b>
 								</a>
 									<ul class="dropdown-menu">
-										<li><a href="htmls/solid.html"> <i
+										<li><a href="../jsps/solid.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">固收类理财</font>
 										</a></li>
-										<li><a href="htmls/private.html"> <i
+										<li><a href="../jsps/private.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">私募基金</font>
 										</a></li>
-										<li><a href="htmls/overseas.html"> <i
+										<li><a href="../jsps/overseas.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">海外配置</font>
 										</a></li>
-										<li><a href="htmls/stock.html"> <i
+										<li><a href="../jsps/stock.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">股权基金</font>
 										</a></li>
 									</ul></li>
@@ -158,7 +158,7 @@
 										class="label label-blue">后缀提醒</span>
 								</a>
 									<ul class="dropdown-menu">
-										<li><a href="htmls/wallet.html"> <i
+										<li><a href="../jsps/wallet.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">钱包缴费记录</font>
 										</a></li>
 									</ul></li>
@@ -168,10 +168,10 @@
 										size="3">学院管理</font><b class="fa fa-plus dropdown-plus"></b>
 								</a>
 									<ul class="dropdown-menu">
-										<li><a href="htmls/information_list.html"> <i
+										<li><a href="../jsps/information_list.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">资讯分类</font>
 										</a></li>
-										<li><a href="htmls/information_management.html"> <i
+										<li><a href="../jsps/information_management.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">资讯管理</font>
 										</a></li>
 									</ul></li>
@@ -182,25 +182,25 @@
 										size="3">会员管理</font><b class="fa fa-plus dropdown-plus"></b>
 								</a>
 									<ul class="dropdown-menu">
-										<li><a href="hou_jsps/account_number.jsp"> <i
+										<li><a href="../jsps/account_number.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">账号管理</font>
 										</a></li>
-										<li><a href="htmls/manage_money.html"> <i
+										<li><a href="../jsps/manage_money.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">理财师审核</font>
 										</a></li>
-										<li><a href="htmls/bind.html"> <i
+										<li><a href="../jsps/bind.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">绑卡管理</font>
 										</a></li>
-										<li><a href="htmls/payment.html"> <i
+										<li><a href="../jsps/payment.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">付息计划</font>
 										</a></li>
-										<li><a href="htmls/recharge.html"> <i
+										<li><a href="../jsps/recharge.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">充值管理</font>
 										</a></li>
-										<li><a href="htmls/withdraw.html"> <i
+										<li><a href="../jsps/withdraw.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">提现管理</font>
 										</a></li>
-										<li><a href="htmls/invite.html"> <i
+										<li><a href="../jsps/invite.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">邀请奖励</font>
 										</a></li>
 									</ul></li>
@@ -210,10 +210,10 @@
 										size="3">盈+统计 </font><b class="fa fa-plus dropdown-plus"></b>
 								</a>
 									<ul class="dropdown-menu">
-										<li><a href="htmls/finance.html"> <i
+										<li><a href="../jsps/finance.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">财务统计</font>
 										</a></li>
-										<li><a href="htmls/users.html"> <i
+										<li><a href="../jsps/users.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">用户综合统计</font>
 										</a></li>
 									</ul></li>
@@ -223,10 +223,10 @@
 										size="3">盈+设置</font> <b class="fa fa-plus dropdown-plus"></b>
 								</a>
 									<ul class="dropdown-menu">
-										<li><a href="htmls/public.html"> <i
+										<li><a href="../jsps/public.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">公告管理</font>
 										</a></li>
-										<li><a href="htmls/opinion.html"> <i
+										<li><a href="../jsps/opinion.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">意见反馈</font>
 										</a></li>
 									</ul></li>
@@ -236,16 +236,16 @@
 										size="3">系统设置 </font><b class="fa fa-plus dropdown-plus"></b>
 								</a>
 									<ul class="dropdown-menu">
-										<li><a href="htmls/account.html"> <i
+										<li><a href="../jsps/account.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">账户管理</font>
 										</a></li>
-										<li><a href="htmls/role.html"> <i
+										<li><a href="../jsps/role.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">角色管理</font>
 										</a></li>
-										<li><a href="htmls/password.html"> <i
+										<li><a href="../jsps/password.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">密码修改</font>
 										</a></li>
-										<li><a href="htmls/authority.html"> <i
+										<li><a href="../jsps/authority.jsp"> <i
 												class="fa fa-caret-right"></i> <font size="2">权限管理</font>
 										</a></li>
 									</ul></li>
