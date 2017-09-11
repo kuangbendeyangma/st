@@ -7,24 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
 
-    <link rel="icon" type="image/ico" href="http://tattek.com/minimal/../../img/favicon.ico" />
-    <!-- Bootstrap -->
-    <link href="../hou_css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="../hou_css/vendor/animate/animate.min.css">
-    <link type="text/css" rel="stylesheet" media="all" href="../hou_js/vendor/mmenu/css/jquery.mmenu.all.css" />
-    <link rel="stylesheet" href="../hou_js/vendor/videobackground/css/jquery.videobackground.css">
-    <link rel="stylesheet" href="../hou_css/vendor/bootstrap-checkbox.css">
-
-    <link rel="stylesheet" href="../hou_js/vendor/rickshaw/css/rickshaw.min.css">
-    <link rel="stylesheet" href="../hou_js/vendor/morris/css/morris.css">
-    <link rel="stylesheet" href="../hou_js/vendor/tabdrop/css/tabdrop.css">
-    <link rel="stylesheet" href="../hou_js/vendor/summernote/css/summernote.css">
-    <link rel="stylesheet" href="../hou_js/vendor/summernote/css/summernote-bs3.css">
-    <link rel="stylesheet" href="../hou_js/vendor/chosen/css/chosen.min.css">
-    <link rel="stylesheet" href="../hou_js/vendor/chosen/css/chosen-bootstrap.css">
-
-    <link href="../hou_css/minimal.css" rel="stylesheet">
+  <link rel="icon" type="image/ico"
+	href="http://tattek.com/minimal/../hou_img/favicon.ico" />
+<!-- Bootstrap -->
+<link href="../csss/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../csss/vendor/animate/animate.min.css">
+<link type="text/css" rel="stylesheet" media="all" href="../csss/vendor/mmenu/css/jquery.mmenu.all.css" />
+<link rel="stylesheet" href="../csss/vendor/videobackground/css/jquery.videobackground.css">
+<link rel="stylesheet" href="../csss/vendor/bootstrap-checkbox.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/rickshaw/css/rickshaw.min.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/morris/css/morris.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/tabdrop/css/tabdrop.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/summernote/css/summernote.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/summernote/css/summernote-bs3.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/chosen/css/chosen.min.css">
+<link type="text/css" rel="stylesheet" href="../csss/vendor/chosen/css/chosen-bootstrap.css">
+<link type="text/css" href="../csss/minimal.css" rel="stylesheet">
 
   </head>
   <body class="bg-1">
@@ -41,7 +40,7 @@
         
           <!-- Branding -->
           <div class="navbar-header col-md-2">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.jsp">
               <strong>理</strong>财
             </a>
             <div class="sidebar-collapse">
@@ -80,7 +79,7 @@
 
               <li class="dropdown divided user" id="current-user">
                 <div class="profile-photo">
-                  <img src="../../images/profile-photo.jpg" alt />
+                  <img src="../img/profile-photo.jpg" alt />
                 </div>
                 <a class="dropdown-toggle options" data-toggle="dropdown" href="#">
                   	账号<i class="fa fa-caret-down"></i>
@@ -132,7 +131,7 @@
                 <ul class="menu">
                   
                   <li class="active">
-                    <a href="index.html">
+                    <a href="index.jsp">
                  
                       <span class="badge badge-red">new </span>
                     </a>
@@ -144,23 +143,23 @@
                     </a>
                     <ul class="dropdown-menu">
                       	<li>
-                        <a href="../htmls/solid.html">
+                        <a href="../jsps/solid.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">固收类理财</font>
                         </a>
                        </li>
                       </li>
                       <li>
-                        <a href="../htmls/private.html">
+                        <a href="../jsps/private.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">私募基金</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/overseas.html">
+                        <a href="../jsps/overseas.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">海外配置</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/stock.html">
+                        <a href="../jsps/stock.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">股权基金</font>
                         </a>
                       </li>
@@ -174,7 +173,7 @@
                      </a>
 						<ul class="dropdown-menu">
                       <li>
-                        <a href="../htmls/wallet.html">
+                        <a href="../jsps/wallet.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">钱包缴费记录</font>
                         </a>
                       </li>
@@ -188,12 +187,12 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li>
-                        <a href="../htmls/information_list.html">
+                        <a href="../jsps/information_list.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">资讯分类</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/information_management.html">
+                        <a href="../jsps/information_management.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">资讯管理</font>
                         </a>
                       </li>
@@ -207,37 +206,37 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li class="active">
-                        <a href="../htmls/account_number.html">
+                        <a href="../jsps/account_number.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">账号管理</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/manage_money.html">
+                        <a href="../jsps/manage_money.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">理财师审核</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/bind.html">
+                        <a href="../jsps/bind.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">绑卡管理</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/payment.html">
+                        <a href="../jsps/payment.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">付息计划</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/recharge.html">
+                        <a href="../jsps/recharge.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">充值管理</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/withdraw.html">
+                        <a href="../jsps/withdraw.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">提现管理</font>
                         </a>
                       </li>
                        <li>
-                        <a href="../htmls/invite.html">
+                        <a href="../jsps/invite.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">邀请奖励</font>
                         </a>
                       </li>
@@ -250,12 +249,12 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li>
-                        <a href="../htmls/finance.html">
+                        <a href="../jsps/finance.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">财务统计</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/users.html">
+                        <a href="../jsps/users.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">用户综合统计</font>
                         </a>
                       </li>
@@ -268,12 +267,12 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li>
-                        <a href="../htmls/public.html">
+                        <a href="../jsps/public.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">公告管理</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/opinion.html">
+                        <a href="../jsps/opinion.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">意见反馈</font>
                         </a>
                       </li>
@@ -286,22 +285,22 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li>
-                        <a href="../htmls/account.html">
+                        <a href="../jsps/account.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">账户管理</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/role.html">
+                        <a href="../jsps/role.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">角色管理</font>
                         </a>
                       </li>
                       <li>
-                        <a href="../htmls/password.html">
+                        <a href="../jsps/password.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">密码修改</font>
                         </a>
                       </li>
                        <li>
-                        <a href="../htmls/authority.html">
+                        <a href="../jsps/authority.jsp">
                           <i class="fa fa-caret-right"></i> <font size="2">权限管理</font>
                         </a>
                       </li>
@@ -386,39 +385,43 @@
 
     <section class="videocontent" id="video"></section>
 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../jss/vendor/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript"
+		src="../jss/vendor/mmenu/js/jquery.mmenu.min.js"></script>
+	<script type="text/javascript"
+		src="../jss/vendor/sparkline/jquery.sparkline.min.js"></script>
+	<script type="text/javascript"
+		src="../jss/vendor/nicescroll/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript"
+		src="../jss/vendor/animate-numbers/jquery.animateNumbers.js"></script>
+	<script type="text/javascript"
+		src="../jss/vendor/videobackground/jquery.videobackground.js"></script>
+	<script type="text/javascript"
+		src="../jss/vendor/blockui/jquery.blockUI.js"></script>
 
+	<script src="../jss/vendor/flot/jquery.flot.min.js"></script>
+	<script src="../jss/vendor/flot/jquery.flot.time.min.js"></script>
+	<script src="../jss/vendor/flot/jquery.flot.selection.min.js"></script>
+	<script src="../jss/vendor/flot/jquery.flot.animator.min.js"></script>
+	<script src="../jss/vendor/flot/jquery.flot.orderBars.js"></script>
+	<script src="../jss/vendor/easypiechart/jquery.easypiechart.min.js"></script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../../js/vendor/bootstrap/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../../js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
-    <script type="text/javascript" src="../../js/vendor/sparkline/jquery.sparkline.min.js"></script>
-    <script type="text/javascript" src="../../js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
-    <script type="text/javascript" src="../../js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
-    <script type="text/javascript" src="../../js/vendor/videobackground/jquery.videobackground.js"></script>
-    <script type="text/javascript" src="../../js/vendor/blockui/jquery.blockUI.js"></script>
+	<script src="../jss/vendor/rickshaw/raphael-min.js"></script>
+	<script src="../jss/vendor/rickshaw/d3.v2.js"></script>
+	<script src="../jss/vendor/rickshaw/rickshaw.min.js"></script>
 
-    <script src="../../js/vendor/flot/jquery.flot.min.js"></script>
-    <script src="../../js/vendor/flot/jquery.flot.time.min.js"></script>
-    <script src="../../js/vendor/flot/jquery.flot.selection.min.js"></script>
-    <script src="../../js/vendor/flot/jquery.flot.animator.min.js"></script>
-    <script src="../../js/vendor/flot/jquery.flot.orderBars.js"></script>
-    <script src="../../js/vendor/easypiechart/jquery.easypiechart.min.js"></script>
+	<script src="../jss/vendor/morris/morris.min.js"></script>
 
-    <script src="../../js/vendor/rickshaw/raphael-min.js"></script> 
-    <script src="../../js/vendor/rickshaw/d3.v2.js"></script>
-    <script src="../../js/vendor/rickshaw/rickshaw.min.js"></script>
+	<script src="../jss/vendor/tabdrop/bootstrap-tabdrop.min.js"></script>
 
-    <script src="../../js/vendor/morris/morris.min.js"></script>
+	<script src="../jss/vendor/summernote/summernote.min.js"></script>
 
-    <script src="../../js/vendor/tabdrop/bootstrap-tabdrop.min.js"></script>
+	<script src="../jss/vendor/chosen/chosen.jquery.min.js"></script>
 
-    <script src="../../js/vendor/summernote/summernote.min.js"></script>
-
-    <script src="../../js/vendor/chosen/chosen.jquery.min.js"></script>
-
-    <script src="../../js/minimal.min.js"></script>
+	<script src="../jss/minimal.min.js"></script>
 
     <script>
     $(function(){
