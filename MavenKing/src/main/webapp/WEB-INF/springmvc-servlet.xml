@@ -22,6 +22,7 @@
 		<mvc:resources location="/jss/" mapping="/jss/**"></mvc:resources>
 		<mvc:resources location="/csss/" mapping="/csss/**"></mvc:resources>
 		<mvc:resources location="/img/" mapping="/img/**"></mvc:resources>
+		
 		<mvc:annotation-driven></mvc:annotation-driven>
 		<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/jsp/"></property>

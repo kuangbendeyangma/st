@@ -13,7 +13,7 @@ public class Finance_product_funds {//理财类基金产品表
 	private String type;//产品类型
 	private String name;//名称
 	private int status;//״状态(0:未发布，1:募集中，2:已结束)
-	private int priod;//周期
+	private int period;//周期
 	private double floor_amount;//起投金额
 	private double year_rate;//年化率
 	private int subscribe_count;// 预约人数
@@ -63,11 +63,11 @@ public class Finance_product_funds {//理财类基金产品表
 	public void setStatus(int status) {
 		this.status = status;
 	}
-	public int getPriod() {
-		return priod;
+	public int getPeriod() {
+		return period;
 	}
-	public void setPriod(int priod) {
-		this.priod = priod;
+	public void setPeriod(int period) {
+		this.period = period;
 	}
 	public double getFloor_amount() {
 		return floor_amount;

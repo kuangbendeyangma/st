@@ -9,7 +9,6 @@
 <link type="text/css" rel="stylesheet" href="../css/style.css" />
 <link type="text/css" rel="stylesheet" href="../css/index.css" />
 <link type="text/css" rel="stylesheet" href="../css/styletwo.css" />
-<link type="text/css" rel="stylesheet" href="../css/jw.css" />
 <script type="text/javascript" src="../js/nwd_common.js"></script>
 <title></title>
 <style type="text/css">
@@ -78,10 +77,9 @@ ul#nav li a:hover {
 					</map> </a></span> <input type="hidden" value="" id="stok"> <input
 				type="hidden" value="" id="log_userid"> <input type="hidden"
 				value="" id="log_username"> <span class="fr fc_9"
-				id="login_bt">您好，<a
-				href="https://member.niwodai.com/login.html"
+				id="login_bt">您好，<a href="../Qmain/login.jsp"
 				class="mar_l10 toplogin" title="登录">请登录</a><a
-				href="http://www.niwodai.com/multiRegister.html?artId=5820160000010275"
+				href="../Qmain/add.jsp"
 				class="mar_r10 mar_l10 toplogin" title="注册">免费注册</a></span>
 		</div>
 	</div>
@@ -375,8 +373,6 @@ ul#nav li a:hover {
 
 	<center>
 		<div style="width: 90%; height: 100px; background-color: white;">
-
-
 			<img src="../images/qhit.png" /> <font color="black" size="5	">
 				<br>Copyright ©2017 襄阳三阳科技培训学校 st1604 2+3项目组版权所有
 			</font>
